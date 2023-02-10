@@ -1,0 +1,24 @@
+*{
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+.font-icon{
+  font-family: 'Oswald', sans-serif;
+}
+.space{
+  position: fixed;
+  right: 20px;
+}
+.fxLayout{
+  display: flex;
+  position: relative;
+}
+h2{
+  border-bottom-style: solid;
+  border-bottom-color: rgb(0, 0, 0);
+}
+.font-thai{
+  font-family: 'Itim', cursive;
+}
+

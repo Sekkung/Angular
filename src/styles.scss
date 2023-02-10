@@ -1,1 +1,39 @@
 /* You can add global styles to this file, and also import other style files */
+
+html { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+/* Importing Bootstrap SCSS file. */
+@import 'bootstrap/scss/bootstrap';
+
+.light-theme{
+  --backgroung-color:#f5f5f5;
+  --text-color:#1a1a1a;
+  --box-color:#fff;
+  --button-color:#fff;
+
+  --box-shadow:0 15px 25px rgba(0,0,0,.1);
+}
+
+.dark-theme{
+  --backgroung-color:#000000;
+  --text-color:#ffffff;
+  --box-color:#000000;
+  --button-color:#fff;
+
+}
+.box{
+  background-color: var(--backgroung-color);
+  box-shadow: var(--box-shadow);
+}
+.header{
+  color: var(--text-color);
+}
+.paragraph{
+ color: var(--text-color);
+}
+.body{
+  height: 100%;
+  background-color: var(--backgroung-color);
+}
+
