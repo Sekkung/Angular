@@ -2,6 +2,7 @@
   display: flex;
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 .font-icon{
   font-family: 'Oswald', sans-serif;
@@ -20,5 +21,13 @@ h2{
 }
 .font-thai{
   font-family: 'Itim', cursive;
+}
+.app-toolbar {
+  position: sticky;
+  position: -webkit-sticky; /* For macOS/iOS Safari */
+  //top: 0; /* Sets the sticky toolbar to be on top */
+  z-index: 1000; /* Ensure that your app's content doesn't overlap the toolbar */
+  background-color: var(--backgroung-color);
+  color: var(--text-color);
 }
 
